@@ -1,2 +1,3 @@
-export { Policy } from './Policy'
 export { DropDownOrderBy } from './DropDownOrderBy'
+export { Policies } from './Policies'
+export { Policy } from './Policy'

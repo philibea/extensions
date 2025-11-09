@@ -1,11 +1,11 @@
 import { List } from '@raycast/api'
-import type { IAM } from '@scaleway/sdk'
+import type { Iamv1alpha1 } from '@scaleway/sdk-iam'
 
-type PolicyProps = {
-  policy: IAM.v1alpha1.Policy
+type PoliciesProps = {
+  policy: Iamv1alpha1.Policy
 }
 
-export const Policy = ({ policy }: PolicyProps) => (
+export const Policies = ({ policy }: PoliciesProps) => (
   <List.Item.Detail
     metadata={
       <List.Item.Detail.Metadata>
