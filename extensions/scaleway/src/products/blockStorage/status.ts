@@ -1,5 +1,5 @@
 import { Color, Icon } from '@raycast/api'
-import { Blockv1alpha1 } from '@scaleway/sdk-block'
+import { Blockv1alpha1 } from '@scaleway/sdk'
 
 export const VOLUME_STATUSES = Blockv1alpha1.VOLUME_TRANSIENT_STATUSES.reduce(
   (acc, transientStatus) => ({

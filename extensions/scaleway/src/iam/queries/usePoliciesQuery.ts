@@ -1,4 +1,4 @@
-import type { Iamv1alpha1 } from '@scaleway/sdk-iam'
+import type { Iamv1alpha1 } from '@scaleway/sdk'
 import { useDataLoader } from '@scaleway/use-dataloader'
 import { useAPI } from 'helpers/useAPI'
 

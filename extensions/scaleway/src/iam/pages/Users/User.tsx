@@ -1,5 +1,5 @@
 import { Color, Icon, List } from '@raycast/api'
-import type { Iamv1alpha1 } from '@scaleway/sdk-iam'
+import type { Iamv1alpha1 } from '@scaleway/sdk'
 
 type UserProps = {
   user: Iamv1alpha1.User

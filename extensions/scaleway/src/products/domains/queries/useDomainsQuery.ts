@@ -1,4 +1,4 @@
-import type { Domainv2beta1 } from '@scaleway/sdk-domain'
+import type { Domainv2beta1 } from '@scaleway/sdk'
 import { useDataLoader } from '@scaleway/use-dataloader'
 import { useAPI } from 'helpers/useAPI'
 

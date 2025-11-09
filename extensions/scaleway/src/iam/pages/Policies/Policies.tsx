@@ -1,5 +1,5 @@
 import { Action, ActionPanel, List } from '@raycast/api'
-import type { Iamv1alpha1 } from '@scaleway/sdk-iam'
+import type { Iamv1alpha1 } from '@scaleway/sdk'
 import { useReducer, useState } from 'react'
 import { useAllPoliciesQuery } from '../../queries'
 import { DropDownOrderBy, Policy } from './components'

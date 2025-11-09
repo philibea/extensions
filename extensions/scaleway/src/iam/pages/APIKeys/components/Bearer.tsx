@@ -1,5 +1,5 @@
 import { List } from '@raycast/api'
-import type { Iamv1alpha1 } from '@scaleway/sdk-iam'
+import type { Iamv1alpha1 } from '@scaleway/sdk'
 import { useApplicationQuery, useUserQuery } from '../../../queries'
 
 type APIKeyProps = {

@@ -1,5 +1,5 @@
 import { List } from '@raycast/api'
-import type { Blockv1alpha1 } from '@scaleway/sdk-block'
+import type { Blockv1alpha1 } from '@scaleway/sdk'
 import { bytesToSize } from '../../helpers/bytesToSize'
 import { getIconFromLocality } from '../../helpers/locality'
 import { getVolumeStatusIcon } from './status'

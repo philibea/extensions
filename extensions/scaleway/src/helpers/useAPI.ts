@@ -5,9 +5,13 @@
 // import 'cross-fetch/polyfill'
 
 import {
+  Applesiliconv1alpha1,
   Baremetalv1,
+  Blockv1alpha1,
   Containerv1beta1,
+  Domainv2beta1,
   Functionv1beta1,
+  Iamv1alpha1,
   Instancev1,
   Iotv1,
   Ipamv1,
@@ -23,16 +27,12 @@ import {
   Vpcv2,
   Webhostingv1,
 } from '@scaleway/sdk'
-import { Applesiliconv1alpha1 } from '@scaleway/sdk-applesilicon'
-import { Blockv1alpha1 } from '@scaleway/sdk-block'
 import {
   createAdvancedClient,
   enableConsoleLogger,
   withProfile,
   withUserAgent,
 } from '@scaleway/sdk-client'
-import { Domainv2beta1 } from '@scaleway/sdk-domain'
-import { Iamv1alpha1 } from '@scaleway/sdk-iam'
 import { getPreferenceUser } from './getPreferenceUser'
 
 const clientSetting = getPreferenceUser()

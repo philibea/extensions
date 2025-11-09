@@ -1,5 +1,5 @@
 import { List } from '@raycast/api'
-import type { Iamv1alpha1 } from '@scaleway/sdk-iam'
+import type { Iamv1alpha1 } from '@scaleway/sdk'
 
 type PolicyProps = {
   policy: Iamv1alpha1.Policy

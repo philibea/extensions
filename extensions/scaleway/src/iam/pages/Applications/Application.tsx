@@ -1,5 +1,5 @@
 import { List } from '@raycast/api'
-import type { Iamv1alpha1 } from '@scaleway/sdk-iam'
+import type { Iamv1alpha1 } from '@scaleway/sdk'
 
 type ApplicationProps = {
   application: Iamv1alpha1.Application

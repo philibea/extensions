@@ -1,5 +1,5 @@
 import { List } from '@raycast/api'
-import type { Iamv1alpha1 } from '@scaleway/sdk-iam'
+import type { Iamv1alpha1 } from '@scaleway/sdk'
 import { useAllApplicationsQuery, useAllUsersQuery } from '../../queries'
 
 type GroupProps = {

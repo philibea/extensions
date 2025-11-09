@@ -1,5 +1,5 @@
 import { Color, Icon } from '@raycast/api'
-import { Applesiliconv1alpha1 } from '@scaleway/sdk-applesilicon'
+import { Applesiliconv1alpha1 } from '@scaleway/sdk'
 
 export const SERVER_STATUSES = Applesiliconv1alpha1.SERVER_TRANSIENT_STATUSES.reduce(
   (acc, transientStatus) => ({

@@ -1,4 +1,4 @@
-import { Blockv1alpha1 } from '@scaleway/sdk-block'
+import { Blockv1alpha1 } from '@scaleway/sdk'
 import { useDataLoader } from '@scaleway/use-dataloader'
 import { fetchAllZones } from 'helpers/fetchLocalities'
 import { useAPI } from 'helpers/useAPI'

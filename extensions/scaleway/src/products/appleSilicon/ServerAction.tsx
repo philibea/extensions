@@ -1,5 +1,5 @@
 import { Action, ActionPanel } from '@raycast/api'
-import type { Applesiliconv1alpha1 } from '@scaleway/sdk-applesilicon'
+import type { Applesiliconv1alpha1 } from '@scaleway/sdk'
 import { getServerUrl } from './urls'
 
 type ServerActionProps = {

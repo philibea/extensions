@@ -1,5 +1,5 @@
 import { Action, ActionPanel } from '@raycast/api'
-import type { Iamv1alpha1 } from '@scaleway/sdk-iam'
+import type { Iamv1alpha1 } from '@scaleway/sdk'
 import { getUserUrl } from './urls'
 
 type UserActionProps = {

@@ -1,5 +1,5 @@
 import { List } from '@raycast/api'
-import type { Applesiliconv1alpha1 } from '@scaleway/sdk-applesilicon'
+import type { Applesiliconv1alpha1 } from '@scaleway/sdk'
 import { getIconFromLocality } from '../../helpers/locality'
 import { getServerStatusIcon } from './status'
 
