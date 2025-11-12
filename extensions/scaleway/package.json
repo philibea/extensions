@@ -232,5 +232,8 @@
     "build": "ray build -e dist -o build",
     "dev": "ray develop",
     "fix-lint": "ray lint --fix"
-  }
+  },
+  "platforms": [
+    "macOS"
+  ]
 }
